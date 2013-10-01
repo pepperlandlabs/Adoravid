@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6CDE8F2A17FA3A0D0079719A /* NSArray+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDE8F2917FA3A0D0079719A /* NSArray+Random.m */; };
+		6CDE8FC117FB83990079719A /* HCYoutubeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDE8FC017FB83990079719A /* HCYoutubeParser.m */; };
 		6CFA918117F8F77000A9F083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFA918017F8F77000A9F083 /* Foundation.framework */; };
 		6CFA918317F8F77000A9F083 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFA918217F8F77000A9F083 /* CoreGraphics.framework */; };
 		6CFA918517F8F77000A9F083 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFA918417F8F77000A9F083 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		6CDE8F2817FA3A0D0079719A /* NSArray+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Random.h"; sourceTree = "<group>"; };
 		6CDE8F2917FA3A0D0079719A /* NSArray+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Random.m"; sourceTree = "<group>"; };
+		6CDE8FBF17FB83990079719A /* HCYoutubeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCYoutubeParser.h; sourceTree = "<group>"; };
+		6CDE8FC017FB83990079719A /* HCYoutubeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCYoutubeParser.m; sourceTree = "<group>"; };
 		6CFA917D17F8F77000A9F083 /* Vidyaww.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vidyaww.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFA918017F8F77000A9F083 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CFA918217F8F77000A9F083 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CDE8FBE17FB83990079719A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6CDE8FBF17FB83990079719A /* HCYoutubeParser.h */,
+				6CDE8FC017FB83990079719A /* HCYoutubeParser.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6CFA917417F8F77000A9F083 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +138,7 @@
 				6CFA919217F8F77100A9F083 /* Main.storyboard */,
 				6CFA919517F8F77100A9F083 /* MovieViewController.h */,
 				6CFA919617F8F77100A9F083 /* MovieViewController.m */,
+				6CDE8FBE17FB83990079719A /* Classes */,
 				6CDE8F2817FA3A0D0079719A /* NSArray+Random.h */,
 				6CDE8F2917FA3A0D0079719A /* NSArray+Random.m */,
 				6CFA919817F8F77100A9F083 /* Images.xcassets */,
@@ -268,6 +281,7 @@
 				6CFA919717F8F77100A9F083 /* MovieViewController.m in Sources */,
 				6CFA919117F8F77100A9F083 /* AppDelegate.m in Sources */,
 				6CFA918D17F8F77100A9F083 /* main.m in Sources */,
+				6CDE8FC117FB83990079719A /* HCYoutubeParser.m in Sources */,
 				6CDE8F2A17FA3A0D0079719A /* NSArray+Random.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

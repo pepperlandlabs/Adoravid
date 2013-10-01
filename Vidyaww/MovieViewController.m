@@ -7,10 +7,13 @@
 //
 
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
-#define kVideoFromJsonURL [NSURL URLWithString:@"http://pepperlandlabs.com/couch/couch2.json"]
+#define kVideoFromJsonURL [NSURL URLWithString:@"http://pepperlandlabs.com/couch/couch3.json"]
 
 #import "MovieViewController.h"
 #import "NSArray+Random.h"
+#import "HCYoutubeParser.h"
+#import <QuartzCore/QuartzCore.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface NSDictionary(JSONCategories)
 +(NSDictionary*)dictionaryWithContentsOfJSONURLString:
@@ -87,7 +90,9 @@
     //NSURL *url = [NSURL URLWithString:
       //            @"http://www.ebookfrenzy.com/ios_book/movie/movie.mov"];
     NSDictionary* video = [self.videoArray randomObject];
-    self.currentURL = [NSURL URLWithString:[video objectForKey:@"video_url"]];
+    self.getvidURL = [NSURL URLWithString:[video objectForKey:@"video_url"]];
+    NSDictionary *videos = [HCYoutubeParser h264videosWithYoutubeURL: self.getvidURL];
+    self.currentURL = [NSURL URLWithString:[videos objectForKey:@"medium"]];
     
     NSURL *url = self.currentURL;
     
