@@ -121,15 +121,16 @@
      name:MPMoviePlayerPlaybackDidFinishNotification
      object:player];
     
-    if ([player
+    [player.view removeFromSuperview];
+    
+    /*if ([player
          respondsToSelector:@selector(setFullscreen:animated:)])
     {
         [player.view removeFromSuperview];
-        //[NSDictionary* video = [self.videoArray randomObject]
-        // self.currentURL = [NSURL URLWithString:[video objectForKey:@"video_url"];
         
-    }
+    }*/
 }
+
 /*
 - (void)MPMoviePlayerDidExitFullscreen:(NSNotification *)notification
 {
