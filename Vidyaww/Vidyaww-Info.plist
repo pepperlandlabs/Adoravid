@@ -5,7 +5,7 @@
 	<key>UIStatusBarHidden</key>
 	<true/>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<false/>
+	<true/>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -32,6 +32,8 @@
 	<true/>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>FacebookAppID</key>
+	<string>187150951472161</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

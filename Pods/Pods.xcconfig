@@ -1,0 +1,4 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/NSData+Base64" "${PODS_ROOT}/Headers/REComposeViewController" "${PODS_ROOT}/Headers/ShareThis" "${PODS_ROOT}/Headers/VideoPlayerKit" "${PODS_ROOT}/Headers/cocoa-oauth"
+OTHER_LDFLAGS = -ObjC -lsqlite3.0 -framework AVFoundation -framework AudioToolbox -framework CoreGraphics -framework CoreLocation -framework CoreMedia -framework MediaPlayer -framework MessageUI -framework QuartzCore -framework Security -framework Twitter -weak_framework Accounts -weak_framework AdSupport -weak_framework Social
+PODS_ROOT = ${SRCROOT}/Pods

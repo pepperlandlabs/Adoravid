@@ -7,11 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "Flurry.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Flurry setCrashReportingEnabled:YES];
+    //note: iOS only allows one crash reporting tool per app; if using another, set to: NO
+    [Flurry startSession:@"MSC5SVZDYB25KH4Q3W4J"];
     // Override point for customization after application launch.
     return YES;
 }
