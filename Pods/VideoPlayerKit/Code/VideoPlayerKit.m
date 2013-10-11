@@ -356,7 +356,7 @@ NSString * vidtitle = @"via @Adoravid";
                                  if (showShareOptions) {
                                      [self presentShareOptions];
                                  }
-                                 
+                                 [self.videoPlayer pause];
                                  [self.videoPlayerView removeFromSuperview];
                              }];
         } else {
@@ -574,7 +574,7 @@ NSString * vidtitle = @"via @Adoravid";
     if (self.view.superview) {
         self.playerIsBuffering = NO;
         scrubBuffering = NO;
-        playWhenReady = NO;
+        playWhenReady = YES;
         // Configuration is done, ready to start.
         [self.videoPlayer play];
         [self updatePlaybackProgress];
