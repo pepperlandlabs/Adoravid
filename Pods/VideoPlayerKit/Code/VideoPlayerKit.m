@@ -604,6 +604,7 @@ NSString * vidtitle = @"via @Adoravid";
     if ([self isPlaying]) {
         [self performSelector:@selector(hideControlsAnimated:) withObject:@YES afterDelay:4.0];
     }
+    
 }
 
 - (void)hideControlsAnimated:(BOOL)animated
