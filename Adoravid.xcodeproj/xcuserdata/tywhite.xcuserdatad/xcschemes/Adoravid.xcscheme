@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6CFA917C17F8F77000A9F083"
-               BuildableName = "Vidyaww.app"
-               BlueprintName = "Vidyaww"
-               ReferencedContainer = "container:Vidyaww.xcodeproj">
+               BuildableName = "Adoravid.app"
+               BlueprintName = "Adoravid"
+               ReferencedContainer = "container:Adoravid.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6CFA919D17F8F77100A9F083"
-               BuildableName = "VidyawwTests.xctest"
-               BlueprintName = "VidyawwTests"
-               ReferencedContainer = "container:Vidyaww.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6CFA917C17F8F77000A9F083"
-            BuildableName = "Vidyaww.app"
-            BlueprintName = "Vidyaww"
-            ReferencedContainer = "container:Vidyaww.xcodeproj">
+            BuildableName = "Adoravid.app"
+            BlueprintName = "Adoravid"
+            ReferencedContainer = "container:Adoravid.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6CFA917C17F8F77000A9F083"
-            BuildableName = "Vidyaww.app"
-            BlueprintName = "Vidyaww"
-            ReferencedContainer = "container:Vidyaww.xcodeproj">
+            BuildableName = "Adoravid.app"
+            BlueprintName = "Adoravid"
+            ReferencedContainer = "container:Adoravid.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6CFA917C17F8F77000A9F083"
-            BuildableName = "Vidyaww.app"
-            BlueprintName = "Vidyaww"
-            ReferencedContainer = "container:Vidyaww.xcodeproj">
+            BuildableName = "Adoravid.app"
+            BlueprintName = "Adoravid"
+            ReferencedContainer = "container:Adoravid.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

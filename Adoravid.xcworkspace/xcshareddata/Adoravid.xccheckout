@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>75B8374B-ACA6-4150-807D-A5C37540B3DD</string>
+	<string>6845A4E0-DC73-4E38-AFDB-E6E18D3D3FC0</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Vidyaww</string>
+	<string>Adoravid</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6ED04184-8081-4762-806D-CC4F31179055</key>
 		<string>ssh://github.com/pepperlandlabs/Adoravid.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Vidyaww.xcworkspace</string>
+	<string>Adoravid.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6ED04184-8081-4762-806D-CC4F31179055</key>

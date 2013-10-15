@@ -102,23 +102,23 @@
 		6CDE8F2917FA3A0D0079719A /* NSArray+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Random.m"; sourceTree = "<group>"; };
 		6CDE8FBF17FB83990079719A /* HCYoutubeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCYoutubeParser.h; sourceTree = "<group>"; };
 		6CDE8FC017FB83990079719A /* HCYoutubeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCYoutubeParser.m; sourceTree = "<group>"; };
-		6CFA917D17F8F77000A9F083 /* Vidyaww.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vidyaww.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFA917D17F8F77000A9F083 /* Adoravid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adoravid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFA918017F8F77000A9F083 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CFA918217F8F77000A9F083 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6CFA918417F8F77000A9F083 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6CFA918817F8F77000A9F083 /* Vidyaww-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vidyaww-Info.plist"; sourceTree = "<group>"; };
+		6CFA918817F8F77000A9F083 /* Adoravid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adoravid-Info.plist"; sourceTree = "<group>"; };
 		6CFA918A17F8F77000A9F083 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CFA918C17F8F77100A9F083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6CFA918E17F8F77100A9F083 /* Vidyaww-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vidyaww-Prefix.pch"; sourceTree = "<group>"; };
+		6CFA918E17F8F77100A9F083 /* Adoravid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adoravid-Prefix.pch"; sourceTree = "<group>"; };
 		6CFA918F17F8F77100A9F083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CFA919017F8F77100A9F083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6CFA919317F8F77100A9F083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CFA919517F8F77100A9F083 /* MovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
 		6CFA919617F8F77100A9F083 /* MovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
 		6CFA919817F8F77100A9F083 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6CFA919E17F8F77100A9F083 /* VidyawwTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidyawwTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFA919E17F8F77100A9F083 /* AdoravidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdoravidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFA919F17F8F77100A9F083 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6CFA91A717F8F77100A9F083 /* VidyawwTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VidyawwTests-Info.plist"; sourceTree = "<group>"; };
+		6CFA91A717F8F77100A9F083 /* AdoravidTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdoravidTests-Info.plist"; sourceTree = "<group>"; };
 		6CFA91A917F8F77100A9F083 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CFA91AB17F8F77100A9F083 /* VidyawwTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VidyawwTests.m; sourceTree = "<group>"; };
 		6CFA91B517F8F8A400A9F083 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -169,7 +169,7 @@
 		6CFA917417F8F77000A9F083 = {
 			isa = PBXGroup;
 			children = (
-				6CFA918617F8F77000A9F083 /* Vidyaww */,
+				6CFA918617F8F77000A9F083 /* Adoravid */,
 				6CFA91A517F8F77100A9F083 /* VidyawwTests */,
 				6CFA917F17F8F77000A9F083 /* Frameworks */,
 				6CFA917E17F8F77000A9F083 /* Products */,
@@ -180,8 +180,8 @@
 		6CFA917E17F8F77000A9F083 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CFA917D17F8F77000A9F083 /* Vidyaww.app */,
-				6CFA919E17F8F77100A9F083 /* VidyawwTests.xctest */,
+				6CFA917D17F8F77000A9F083 /* Adoravid.app */,
+				6CFA919E17F8F77100A9F083 /* AdoravidTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6CFA918617F8F77000A9F083 /* Vidyaww */ = {
+		6CFA918617F8F77000A9F083 /* Adoravid */ = {
 			isa = PBXGroup;
 			children = (
 				6CFA918F17F8F77100A9F083 /* AppDelegate.h */,
@@ -218,6 +218,7 @@
 				6CFA919817F8F77100A9F083 /* Images.xcassets */,
 				6CFA918717F8F77000A9F083 /* Supporting Files */,
 			);
+			name = Adoravid;
 			path = Vidyaww;
 			sourceTree = "<group>";
 		};
@@ -250,10 +251,10 @@
 				6C50468A18038FD7002C4DF4 /* transparentBar.png */,
 				6C50468B18038FD7002C4DF4 /* transparentBar@2x.png */,
 				6CFA91B717F8F93100A9F083 /* cutepup.jpg */,
-				6CFA918817F8F77000A9F083 /* Vidyaww-Info.plist */,
+				6CFA918817F8F77000A9F083 /* Adoravid-Info.plist */,
 				6CFA918917F8F77000A9F083 /* InfoPlist.strings */,
 				6CFA918C17F8F77100A9F083 /* main.m */,
-				6CFA918E17F8F77100A9F083 /* Vidyaww-Prefix.pch */,
+				6CFA918E17F8F77100A9F083 /* Adoravid-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -270,7 +271,7 @@
 		6CFA91A617F8F77100A9F083 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6CFA91A717F8F77100A9F083 /* VidyawwTests-Info.plist */,
+				6CFA91A717F8F77100A9F083 /* AdoravidTests-Info.plist */,
 				6CFA91A817F8F77100A9F083 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -279,9 +280,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6CFA917C17F8F77000A9F083 /* Vidyaww */ = {
+		6CFA917C17F8F77000A9F083 /* Adoravid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CFA91AF17F8F77100A9F083 /* Build configuration list for PBXNativeTarget "Vidyaww" */;
+			buildConfigurationList = 6CFA91AF17F8F77100A9F083 /* Build configuration list for PBXNativeTarget "Adoravid" */;
 			buildPhases = (
 				07276366B997459BBF0D7DAF /* Check Pods Manifest.lock */,
 				6CFA917917F8F77000A9F083 /* Sources */,
@@ -293,14 +294,14 @@
 			);
 			dependencies = (
 			);
-			name = Vidyaww;
+			name = Adoravid;
 			productName = Vidyaww;
-			productReference = 6CFA917D17F8F77000A9F083 /* Vidyaww.app */;
+			productReference = 6CFA917D17F8F77000A9F083 /* Adoravid.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6CFA919D17F8F77100A9F083 /* VidyawwTests */ = {
+		6CFA919D17F8F77100A9F083 /* AdoravidTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CFA91B217F8F77100A9F083 /* Build configuration list for PBXNativeTarget "VidyawwTests" */;
+			buildConfigurationList = 6CFA91B217F8F77100A9F083 /* Build configuration list for PBXNativeTarget "AdoravidTests" */;
 			buildPhases = (
 				6CFA919A17F8F77100A9F083 /* Sources */,
 				6CFA919B17F8F77100A9F083 /* Frameworks */,
@@ -311,9 +312,9 @@
 			dependencies = (
 				6CFA91A417F8F77100A9F083 /* PBXTargetDependency */,
 			);
-			name = VidyawwTests;
+			name = AdoravidTests;
 			productName = VidyawwTests;
-			productReference = 6CFA919E17F8F77100A9F083 /* VidyawwTests.xctest */;
+			productReference = 6CFA919E17F8F77100A9F083 /* AdoravidTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -333,7 +334,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6CFA917817F8F77000A9F083 /* Build configuration list for PBXProject "Vidyaww" */;
+			buildConfigurationList = 6CFA917817F8F77000A9F083 /* Build configuration list for PBXProject "Adoravid" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -346,8 +347,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CFA917C17F8F77000A9F083 /* Vidyaww */,
-				6CFA919D17F8F77100A9F083 /* VidyawwTests */,
+				6CFA917C17F8F77000A9F083 /* Adoravid */,
+				6CFA919D17F8F77100A9F083 /* AdoravidTests */,
 			);
 		};
 /* End PBXProject section */
@@ -458,7 +459,7 @@
 /* Begin PBXTargetDependency section */
 		6CFA91A417F8F77100A9F083 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CFA917C17F8F77000A9F083 /* Vidyaww */;
+			target = 6CFA917C17F8F77000A9F083 /* Adoravid */;
 			targetProxy = 6CFA91A317F8F77100A9F083 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -567,14 +568,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vidyaww/Vidyaww-Prefix.pch";
-				INFOPLIST_FILE = "Vidyaww/Vidyaww-Info.plist";
+				GCC_PREFIX_HEADER = "Vidyaww/Adoravid-Prefix.pch";
+				INFOPLIST_FILE = "Vidyaww/Adoravid-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/tywhite/Downloads/VideoPlayerKit-master\\ 2/VideoPlayerKitSampleProject/VideoPlayerSample/Code",
 					/Users/tywhite/Documents/couch/adoravid/Vidyaww2/Vidyaww,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Adoravid;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -587,14 +588,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vidyaww/Vidyaww-Prefix.pch";
-				INFOPLIST_FILE = "Vidyaww/Vidyaww-Info.plist";
+				GCC_PREFIX_HEADER = "Vidyaww/Adoravid-Prefix.pch";
+				INFOPLIST_FILE = "Vidyaww/Adoravid-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/tywhite/Downloads/VideoPlayerKit-master\\ 2/VideoPlayerKitSampleProject/VideoPlayerSample/Code",
 					/Users/tywhite/Documents/couch/adoravid/Vidyaww2/Vidyaww,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Adoravid;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -614,8 +615,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "VidyawwTests/VidyawwTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "VidyawwTests/AdoravidTests-Info.plist";
+				PRODUCT_NAME = AdoravidTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -632,8 +633,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vidyaww/Vidyaww-Prefix.pch";
-				INFOPLIST_FILE = "VidyawwTests/VidyawwTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "VidyawwTests/AdoravidTests-Info.plist";
+				PRODUCT_NAME = AdoravidTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -642,7 +643,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CFA917817F8F77000A9F083 /* Build configuration list for PBXProject "Vidyaww" */ = {
+		6CFA917817F8F77000A9F083 /* Build configuration list for PBXProject "Adoravid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CFA91AD17F8F77100A9F083 /* Debug */,
@@ -651,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CFA91AF17F8F77100A9F083 /* Build configuration list for PBXNativeTarget "Vidyaww" */ = {
+		6CFA91AF17F8F77100A9F083 /* Build configuration list for PBXNativeTarget "Adoravid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CFA91B017F8F77100A9F083 /* Debug */,
@@ -660,7 +661,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CFA91B217F8F77100A9F083 /* Build configuration list for PBXNativeTarget "VidyawwTests" */ = {
+		6CFA91B217F8F77100A9F083 /* Build configuration list for PBXNativeTarget "AdoravidTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CFA91B317F8F77100A9F083 /* Debug */,
