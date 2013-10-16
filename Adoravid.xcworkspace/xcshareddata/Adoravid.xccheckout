@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6845A4E0-DC73-4E38-AFDB-E6E18D3D3FC0</string>
+	<string>024F2341-5DF4-4D20-BDA3-214999FEC8B4</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Adoravid</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6ED04184-8081-4762-806D-CC4F31179055</key>
-		<string>ssh://github.com/pepperlandlabs/Adoravid.git</string>
+		<key>C9BEA847-32B4-48C8-8889-72F691EAFE78</key>
+		<string>ssh://github.com-personal/pepperlandlabs/Adoravid.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Adoravid.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6ED04184-8081-4762-806D-CC4F31179055</key>
+		<key>C9BEA847-32B4-48C8-8889-72F691EAFE78</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/pepperlandlabs/Adoravid.git</string>
+	<string>ssh://github.com-personal/pepperlandlabs/Adoravid.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6ED04184-8081-4762-806D-CC4F31179055</string>
+	<string>C9BEA847-32B4-48C8-8889-72F691EAFE78</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6ED04184-8081-4762-806D-CC4F31179055</string>
+			<string>C9BEA847-32B4-48C8-8889-72F691EAFE78</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Vidyaww2</string>
+			<string>Adoravid</string>
 		</dict>
 	</array>
 </dict>

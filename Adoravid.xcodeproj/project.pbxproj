@@ -588,8 +588,8 @@
 				INFOPLIST_FILE = "Vidyaww/Adoravid-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/tywhite/Downloads/VideoPlayerKit-master\\ 2/VideoPlayerKitSampleProject/VideoPlayerSample/Code",
-					/Users/tywhite/Documents/couch/adoravid/Vidyaww2/Vidyaww,
+					"\"$(SRCROOT)/VideoPlayerKit/Code\"",
+					"\"$(SRCROOT)/Vidyaww\"",
 				);
 				PRODUCT_NAME = Adoravid;
 				WRAPPER_EXTENSION = app;
@@ -608,8 +608,8 @@
 				INFOPLIST_FILE = "Vidyaww/Adoravid-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/tywhite/Downloads/VideoPlayerKit-master\\ 2/VideoPlayerKitSampleProject/VideoPlayerSample/Code",
-					/Users/tywhite/Documents/couch/adoravid/Vidyaww2/Vidyaww,
+					"\"$(SRCROOT)/VideoPlayerKit/Code\"",
+					"\"$(SRCROOT)/Vidyaww\"",
 				);
 				PRODUCT_NAME = Adoravid;
 				WRAPPER_EXTENSION = app;
