@@ -5,8 +5,8 @@
 //  Created by Tyson White on 9/29/13.
 //  Copyright (c) 2013 Tyson White. All rights reserved.
 //
-#define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
-#define kVideoFromJsonURL [NSURL URLWithString:@"http://pepperlandlabs.com/couch/couch3.json"]
+//#define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+//#define kVideoFromJsonURL [NSURL URLWithString:@"http://pepperlandlabs.com/couch/couch3.json"]
 
 #import "MovieViewController.h"
 //#import "VideoPlayerSampleView.h"
@@ -21,7 +21,7 @@
 //@property (nonatomic, strong) VideoPlayerSampleView *videoPlayerSampleView;
 @end
 
-
+/*
 @interface NSDictionary(JSONCategories)
 +(NSDictionary*)dictionaryWithContentsOfJSONURLString:
 (NSString*)urlAddress;
@@ -50,6 +50,7 @@
     return result;
 }
 @end
+*/
 
 @implementation MovieViewController
 
@@ -95,17 +96,19 @@
 {
     [super viewDidLoad];
     
+    
     self.topView.frame = CGRectMake(0, [[UIApplication sharedApplication] statusBarFrame].size.height, self.view.bounds.size.width, 44);
     
-    dispatch_async(kBgQueue, ^{
+    /*dispatch_async(kBgQueue, ^{
         NSData* data = [NSData dataWithContentsOfURL:
                         kVideoFromJsonURL];
         [self performSelectorOnMainThread:@selector(fetchedData:)
                                withObject:data waitUntilDone:YES];
-    });
+    });*/
     [Flurry logEvent:@"Video_view_load"];
 }
 
+/*
 - (void)fetchedData:(NSData *)responseData {
     //parse out the json data
     NSError* error;
@@ -120,16 +123,24 @@
     
     NSLog(@"videodata: %@", latestVideos); //3
 }
+ */
 
 - (void)playVideo:(id)sender
 {
-    //    NSURL *url = [NSURL URLWithString:@"http://ignhdvod-f.akamaihd.net/i/assets.ign.com/videos/zencoder/,416/d4ff0368b5e4a24aee0dab7703d4123a-110000,640/d4ff0368b5e4a24aee0dab7703d4123a-500000,640/d4ff0368b5e4a24aee0dab7703d4123a-1000000,960/d4ff0368b5e4a24aee0dab7703d4123a-2500000,1280/d4ff0368b5e4a24aee0dab7703d4123a-3000000,-1354660143-w.mp4.csmil/master.m3u8"];
-    NSDictionary* video = [self.videoArray randomObject];
-    self.getvidURL = [NSURL URLWithString:[video objectForKey:@"video_url"]];
-    NSDictionary *videos = [HCYoutubeParser h264videosWithYoutubeURL: self.getvidURL];
+
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://cute-api.herokuapp.com/get_random_video"]];
+    NSData *response = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    NSError *jsonParsingError = nil;
+    NSDictionary *videoData = [NSJSONSerialization JSONObjectWithData:response options:0 error:&jsonParsingError];
+    self.videoURL = [NSURL URLWithString:[videoData objectForKey:@"url"]];
+    NSURL *yturl = self.videoURL;
+    
+    //NSDictionary* video = [self.videoArray randomObject];
+    //self.getvidURL = [NSURL URLWithString:[video objectForKey:@"video_url"]];
+    NSDictionary *videos = [HCYoutubeParser h264videosWithYoutubeURL: self.videoURL];
     self.currentURL = [NSURL URLWithString:[videos objectForKey:@"medium"]];
     
-    NSURL *yturl = self.getvidURL;
+    //NSURL *yturl = self.getvidURL;
     NSURL *url = self.currentURL;
     
     NSLog(@"%@", yturl);
@@ -145,7 +156,7 @@
     [self.view addSubview:self.videoPlayerViewController.view];
     
     [self.videoPlayerViewController playVideoWithTitle:@"Title" URL:url videoID:nil shareURL:yturl isStreaming:YES playInFullScreen:YES];
-    [Flurry logEvent:@"Video_Played" withParameters:video timed:YES];
+    [Flurry logEvent:@"Video_Played" withParameters:videoData timed:YES];
 }
 
 - (BOOL)prefersStatusBarHidden { return YES; }

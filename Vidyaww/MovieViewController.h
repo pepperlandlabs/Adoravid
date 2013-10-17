@@ -13,6 +13,7 @@
 @interface MovieViewController : UIViewController
 @property (strong, nonatomic) NSURL *currentURL;
 @property (strong,nonatomic) NSURL *getvidURL;
+@property (strong,nonatomic) NSURL *videoURL;
 @property (strong, nonatomic) NSArray *videoArray;
 @property (strong, nonatomic) MPMoviePlayerController *moviePlayer;
 - (IBAction)playVideo:(id)sender;
