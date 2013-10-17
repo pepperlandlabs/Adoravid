@@ -255,9 +255,12 @@ NSString * vidtitle = @"via @Adoravid";
     
     if ([self isPlaying]) {
         [_videoPlayer pause];
+        playWhenReady = false;
     } else {
         [self playVideo];
         [[_videoPlayerView activityIndicator] stopAnimating];
+        playWhenReady = true;
+       // [self updatePlaybackProgress];
     }
     
     [self syncPlayPauseButtons];
@@ -543,7 +546,6 @@ NSString * vidtitle = @"via @Adoravid";
             [self playVideo];
         }
         [[_videoPlayerView activityIndicator] stopAnimating];
-        
     } else if ([keyPath isEqualToString:@"loadedTimeRanges"]) {
         float durationTime = CMTimeGetSeconds([[self.videoPlayer currentItem] duration]);
         float bufferTime = [self availableDuration];
@@ -569,6 +571,13 @@ NSString * vidtitle = @"via @Adoravid";
     }
 }
 
+-(void)playVideoWhenReady
+{
+    playWhenReady = YES;
+
+}
+
+
 - (void)playVideo
 {
     if (self.view.superview) {
@@ -578,7 +587,12 @@ NSString * vidtitle = @"via @Adoravid";
         // Configuration is done, ready to start.
         [self.videoPlayer play];
         [self updatePlaybackProgress];
+        
+      // [[_videoPlayerView activityIndicator] stopAnimating];
+
     }
+    
+    
     
     NSLog(@"playVideo called");
 }

@@ -21,6 +21,8 @@
 - (void)showCannotFetchStreamError;
 - (void)launchFullScreen;
 - (void)minimizeVideo;
+- (void)playVideo;
+- (void)playVideoWhenReady;
 - (void)playPauseHandler;
 + (VideoPlayerKit *)videoPlayerWithContainingViewController:(UIViewController *)containingViewController
                                             optionalTopView:(UIView *)topView

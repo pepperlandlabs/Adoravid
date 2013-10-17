@@ -81,16 +81,6 @@
         [self.videoPlayerViewController minimizeVideo];
     }
 }
-/*
-- (void)loadView
-{
-    //UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    //UIViewController *myMovieViewController = [storyboard instantiateViewControllerWithIdentifier:@"InitialScreen"];
-    self.videoPlayerSampleView = [[VideoPlayerSampleView alloc] initWithTopView:nil videoPlayerView:nil];
-    //[self.videoPlayerSampleView.playButton addTarget:self action:@selector(playVideo) forControlEvents:UIControlEventTouchUpInside];
-    [self setView:self.videoPlayerSampleView];
-}
- */
 
 - (void)viewDidLoad
 {
@@ -107,23 +97,6 @@
     });*/
     [Flurry logEvent:@"Video_view_load"];
 }
-
-/*
-- (void)fetchedData:(NSData *)responseData {
-    //parse out the json data
-    NSError* error;
-    NSDictionary* json = [NSJSONSerialization
-                          JSONObjectWithData:responseData //1
-                          
-                          options:kNilOptions
-                          error:&error];
-    
-    NSArray* latestVideos = [json objectForKey:@"videodata"]; //2
-    self.videoArray = latestVideos;
-    
-    NSLog(@"videodata: %@", latestVideos); //3
-}
- */
 
 - (void)playVideo:(id)sender
 {
@@ -156,6 +129,14 @@
     [self.view addSubview:self.videoPlayerViewController.view];
     
     [self.videoPlayerViewController playVideoWithTitle:@"Title" URL:url videoID:nil shareURL:yturl isStreaming:YES playInFullScreen:YES];
+    
+    [self.videoPlayerViewController playVideoWhenReady];
+    
+    //[self.videoPlayerViewController playPauseHandler];
+    
+    //[self.videoPlayerViewController playVideo];
+    
+    
     [Flurry logEvent:@"Video_Played" withParameters:videoData timed:YES];
 }
 
